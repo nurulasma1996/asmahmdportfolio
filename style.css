@@ -1,0 +1,195 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins', sans-serif;
+}
+
+body{
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+header{
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    padding:30px 70px;
+}
+
+.logo{
+  display:none;
+}
+
+nav a{
+  text-decoration:none;
+  color:black;
+  margin-left:35px;
+  font-family:'Cinzel', serif;
+  font-size:22px;
+  font-weight:600;
+  letter-spacing:1px;
+}
+
+
+.hero{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:30px;
+}
+
+.right{
+  width:40%;
+  margin-left:-250px;
+}
+
+.left{
+  position:relative;
+  width:50%;
+}
+
+.left img{
+  width:600px;
+  position:relative;
+  top:80px;
+}
+
+.right{
+  width:40%;
+}
+
+.right h1{
+  font-size:110px;
+  font-family:'Caveat', cursive;
+  margin-bottom:20px;
+  position:relative;
+}
+
+.right p{
+  font-family:'Dancing Script', cursive;
+  font-size:20px;
+  font-weight:700;
+  line-height:1.4;
+}
+
+.about-page{
+    text-align:center;
+    width:70%;
+    margin:120px auto;
+}
+
+.about-page h1,
+.education-page h1,
+.career-page h1,
+.contact-page h1{
+    font-size:70px;
+    font-family:'Caveat', cursive;
+    margin-bottom:20px;
+}
+
+.about-page p,
+.education-page p,
+.career-page p,
+.contact-page p{
+    font-family:'Dancing Script', cursive;
+    font-size:30px;
+    line-height:1.6;
+}
+
+.about-body{
+    background-image:url('about-background.png');
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    min-height:100vh;
+}
+
+.education-body{
+    background-image:url('education-background.png') !important;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    min-height:100vh;
+}
+
+.career-body{
+    background-image:url('career-background.png') !important;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    min-height:100vh;
+}
+
+.education-page h1{
+    font-size:70px;
+    font-family:'Caveat', cursive;
+    margin-bottom:20px;
+}
+
+.education-page p{
+    font-family:'Dancing Script', cursive;
+    font-size:30px;
+    line-height:0.6;
+    margin-bottom:10px;
+}
+
+.career-page{
+    text-align:center;
+    width:70%;
+    margin:120px auto;
+}
+
+.career-page h1{
+    font-size:70px;
+    font-family:'Caveat', cursive;
+    margin-bottom:40px;
+}
+
+.career-page p{
+    font-family:'Dancing Script', cursive;
+    font-size:30px;
+    line-height:1.2;
+    margin-bottom:10px;
+}
+
+.contact-page{
+    text-align:center;
+    width:70%;
+    margin:120px auto;
+}
+
+.contact-page h1{
+    font-size:70px;
+    font-family:'Caveat', cursive;
+    margin-bottom:40px;
+}
+
+.contact-page p{
+    font-family:'Dancing Script', cursive;
+    font-size:30px;
+    line-height:1.2;
+    margin-bottom:10px;
+}
+
+.social-icons{
+    margin-top:30px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:25px;
+}
+
+.social-icons a{
+    color:black;
+    font-size:55px;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+.social-icons a:hover{
+    transform:scale(1.15);
+}
