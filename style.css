@@ -47,6 +47,7 @@ nav a{
   margin-left:-250px;
 }
 
+
 .left{
   position:relative;
   width:50%;
@@ -192,4 +193,35 @@ nav a{
 
 .social-icons a:hover{
     transform:scale(1.15);
+}
+
+.education-page{
+    position: relative;
+    min-height: 100vh;
+}
+
+.video{
+    position: absolute;
+}
+
+.video iframe{
+    width: 250px;
+    height: 140px;
+    border: none;
+    border-radius: 10px;
+}
+
+.video1{
+    top: 520px;
+    left: 150px;
+}
+
+.video2{
+    top: 520px;
+    left: 640px;
+}
+
+.video3{
+    top: 520px;
+    left: 1140px;
 }
